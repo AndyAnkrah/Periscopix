@@ -22,7 +22,7 @@
     
     <script type="text/javascript">
     
-      $('#tester').click(function(){
+      $(document).on('click', 'tester', function(){
         alert("YOU clicked tester");
       });
       
