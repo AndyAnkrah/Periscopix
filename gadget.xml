@@ -18,10 +18,22 @@
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
+    <div id="tester"><h1>Andy testing</h1></div>
+    
     <script type="text/javascript">
+    
+      $('#tester').click(function(){
+        alert("YOU clicked tester");
+      });
+      
+      $('.sites-symbol').click(function(){
+        alert("YOU CLICKED AN ARROW!!");
+      });
+      
       $('.sites-attachments-name').click(function(){
         alert("YOU CLICKED A DOWNLOAD!!");
       });
+      
     </script>
    
    ]]>
