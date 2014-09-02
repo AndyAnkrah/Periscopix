@@ -22,11 +22,7 @@
     
     <script type="text/javascript">
     
-      $(document).on('click', 'tester', function(){
-        alert("YOU clicked tester");
-      });
-      
-      $('.sites-symbol').click(function(){
+      $('.sites-symbol', window.parent.document).click(function(){
         alert("YOU CLICKED AN ARROW!!");
       });
       
