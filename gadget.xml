@@ -23,17 +23,9 @@
     <script type="text/javascript">
     
       var myDomElement = window.parent.document.getElementsByClassName("sites-attachments-name")[0];
-      $(myDomElement).click(function(){
+      $(myDomElement).mousedown(function(){
         alert('Omg Chris you're a geniusberger!!');
       });
-      
-      /*parent.$(parent.document).on('click','.sites-symbol', function(){
-        alert('test success!');
-      });
-      
-      $('.sites-attachments-name').click(function(){
-        alert("YOU CLICKED A DOWNLOAD!!");
-      });*/
       
     </script>
    
