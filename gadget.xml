@@ -24,7 +24,7 @@
     
       var myDomElement = window.parent.document.getElementsByClassName("sites-attachments-name")[0];
       $(myDomElement).mousedown(function(){
-        alert('Omg Chris you're a geniusberger!!');
+        alert('Omg Chris you\'re a geniusberger!!');
       });
       
     </script>
