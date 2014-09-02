@@ -22,7 +22,7 @@
     
     <script type="text/javascript">
     
-      var myDomElement = window.parent.document.getElementById("newtest");
+      var myDomElement = window.parent.document.getElementsByClassName("sites-attachments-name")[0];
       $(myDomElement).click(function(){
         alert('Omg Chris you're a geniusberger!!');
       });
