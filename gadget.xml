@@ -22,13 +22,18 @@
     
     <script type="text/javascript">
     
-      parent.$(parent.document).on('click','.sites-symbol', function(){
+      var myDomElement = window.parent.document.getElementById("sites-chrome-footer-wrapper");
+      $(myDomElement).click(function(){
+        alert('Omg Chris you're a geniusberger!!');
+      });
+      
+      /*parent.$(parent.document).on('click','.sites-symbol', function(){
         alert('test success!');
       });
       
       $('.sites-attachments-name').click(function(){
         alert("YOU CLICKED A DOWNLOAD!!");
-      });
+      });*/
       
     </script>
    
