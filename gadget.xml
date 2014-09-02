@@ -22,8 +22,8 @@
     
     <script type="text/javascript">
     
-      $('.sites-symbol', window.parent.document).click(function(){
-        alert("YOU CLICKED AN ARROW!!");
+      parent.$(parent.document).on('click','.sites-symbol', function(){
+        alert('test success!');
       });
       
       $('.sites-attachments-name').click(function(){
