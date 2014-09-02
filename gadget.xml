@@ -22,7 +22,7 @@
     
     <script type="text/javascript">
     
-      var myDomElement = window.parent.document.getElementById("sites-chrome-footer-wrapper");
+      var myDomElement = window.parent.document.getElementById("newtest");
       $(myDomElement).click(function(){
         alert('Omg Chris you're a geniusberger!!');
       });
